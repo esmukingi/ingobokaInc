@@ -1,3 +1,5 @@
+"use client";
+
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
@@ -82,7 +84,14 @@ export const metadata = {
   robots: {
     index: true,
     follow: true
-  }
+  },
+
+  other: [
+    {
+      name: "google-site-verification",
+      content: "0R26gDoOtNCnmjLMaIZ87eu1VIZiw1C-g7GBG_L7zxU"
+    }
+  ]
 };
 
 export const viewport = {
