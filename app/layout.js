@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://ingoboka.vercel.app"),
+  metadataBase: new URL("https://ingobokainc.vercel.app"),
 
   title: {
     default: "Sisitemu yo gucunga farumasi | Ingoboka",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "Sisitemu yo gucunga farumasi | IngobokaInc",
     description:
       "Gucunga imiti, igihe izarangirira n'ububiko bwa farumasi mu buryo bugezweho.",
-    url: "https://ingoboka.vercel.app",
+    url: "https://ingobokainc.vercel.app",
     siteName: "IngobokaInc",
     locale: "rw_RW",
     type: "website",
