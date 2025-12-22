@@ -1,7 +1,7 @@
 "use client";
 
 import { Toaster } from "react-hot-toast";
-import ClientLayout from "@/layout/clientLayout";
+import ClientLayout from "../layout/clientLayout";
 
 export default function ClientLayoutWrapper({ children }) {
   return (
