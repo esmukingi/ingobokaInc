@@ -6,12 +6,12 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 const tabs = [
-  { name: "Overview", href: "/dashboard", icon: Home },
-  { name: "Inventory", href: "/dashboard/inventory", icon: Package },
-  { name: "Transactions", href: "/dashboard/transactions", icon: CreditCard },
-  { name: "Expenses", href: "/dashboard/expenses", icon: Wallet },
-  { name: "Expiry", href: "/dashboard/expiry", icon: Calendar },
-  { name: "Settings", href: "/dashboard/settings", icon: Settings },
+  { name: "Incamake", href: "/dashboard", icon: Home },
+  { name: "Ububiko", href: "/dashboard/inventory", icon: Package },
+  { name: "Kugurisha", href: "/dashboard/transactions", icon: CreditCard },
+  { name: "Ibyasohowe", href: "/dashboard/expenses", icon: Wallet },
+  { name: "Ibigiye Kurangira", href: "/dashboard/expiry", icon: Calendar },
+  { name: "Konti yange", href: "/dashboard/settings", icon: Settings },
 ];
 
 // Show first 3 tabs in main bar, rest in "More"
