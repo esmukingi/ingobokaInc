@@ -1,5 +1,3 @@
-"use client";
-
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
@@ -17,7 +15,7 @@ export const metadata = {
 
   title: {
     default: "Sisitemu yo gucunga farumasi | Ingoboka",
-    template: "%s | Ingoboka"
+    template: "%s | IngobokaInc"
   },
 
   description:
@@ -85,7 +83,6 @@ export const metadata = {
     index: true,
     follow: true
   },
-
   other: [
     {
       name: "google-site-verification",
@@ -93,7 +90,7 @@ export const metadata = {
     }
   ]
 };
-
+ 
 export const viewport = {
   themeColor: "#1e7f5c",
   width: "device-width",
